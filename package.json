@@ -255,7 +255,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.src.json",
-    "build-bundle-watch": "run:p build-watch bundle-watch",
+    "build-bundle-watch": "run-p build-watch bundle-watch",
     "build-watch": "npm run build -- --watch",
     "bundle": "npm run bundle-base -- --sourcemap",
     "bundle-base": "ts-node -P tsconfig.scripts.json scripts/bundle.ts",
