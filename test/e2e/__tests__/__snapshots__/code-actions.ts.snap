@@ -69,7 +69,7 @@ exports[`Code actions should provide code actions for problems 1`] = `
       ],
     ],
     "isPreferred": undefined,
-    "kind": h {
+    "kind": o {
       "value": "quickfix",
     },
     "title": "Disable indentation for this line",
@@ -98,7 +98,7 @@ exports[`Code actions should provide code actions for problems 1`] = `
       ],
     ],
     "isPreferred": undefined,
-    "kind": h {
+    "kind": o {
       "value": "quickfix",
     },
     "title": "Disable indentation for the entire file",
@@ -114,7 +114,7 @@ exports[`Code actions should provide code actions for problems 1`] = `
       "title": "Open documentation for indentation",
     },
     "isPreferred": undefined,
-    "kind": h {
+    "kind": o {
       "value": "quickfix",
     },
     "title": "Show documentation for indentation",
