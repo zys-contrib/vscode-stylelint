@@ -343,17 +343,17 @@ exports[`StylelintRunner with customSyntax should work properly if customSyntax 
 `;
 
 exports[`StylelintRunner with reportDescriptionlessDisables should work properly if reportDescriptionlessDisables is true 1`] = `
-Object {
-  "diagnostics": Array [
-    Object {
+{
+  "diagnostics": [
+    {
       "code": "--report-descriptionless-disables",
-      "message": "Disable for \\"indentation\\" is missing a description",
-      "range": Object {
-        "end": Object {
+      "message": "Disable for "indentation" is missing a description",
+      "range": {
+        "end": {
           "character": 5,
           "line": 2,
         },
-        "start": Object {
+        "start": {
           "character": 4,
           "line": 2,
         },
@@ -361,15 +361,15 @@ Object {
       "severity": 1,
       "source": "Stylelint",
     },
-    Object {
+    {
       "code": "--report-descriptionless-disables",
-      "message": "Disable for \\"indentation\\" is missing a description",
-      "range": Object {
-        "end": Object {
+      "message": "Disable for "indentation" is missing a description",
+      "range": {
+        "end": {
           "character": 1,
           "line": 5,
         },
-        "start": Object {
+        "start": {
           "character": 0,
           "line": 5,
         },
@@ -377,15 +377,15 @@ Object {
       "severity": 1,
       "source": "Stylelint",
     },
-    Object {
+    {
       "code": "--report-descriptionless-disables",
-      "message": "Disable for \\"indentation\\" is missing a description",
-      "range": Object {
-        "end": Object {
+      "message": "Disable for "indentation" is missing a description",
+      "range": {
+        "end": {
           "character": 15,
           "line": 11,
         },
-        "start": Object {
+        "start": {
           "character": 14,
           "line": 11,
         },
